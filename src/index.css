@@ -14,14 +14,16 @@ body {
 
 button {
   font-family: "Poppins", sans-serif;
-  position: relative;
+  position: absolute;
   background: #ff0000;
   color: #ddd;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  bottom: 7.3pc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 button:hover {
@@ -29,18 +31,21 @@ button:hover {
   background: black;
   color: aqua;
 }
+
 img {
   position: relative;
   right: 30pc;
 }
+
 img:hover {
   transform: scale(1.2);
 }
+
 p {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   position: relative;
-  right: 25.9pc;
+  right: 20.9pc;
   bottom: 4.6pc;
   text-decoration: underline;
 }
